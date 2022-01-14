@@ -12,7 +12,7 @@ let timeNow = document.getElementById('date');
 let temperature = document.getElementById('temp');
 let contentHere = document.getElementById('content')
 let wthrSiteUrl = 'https://api.openweathermap.org/data/2.5/weather?zip=';//this one is weather site url is the name of the variable
-let appID = '&appID=5887be3da3a3c76ff4d814354bda3583&units=imperial';
+const appID = '&appID=5887be3da3a3c76ff4d814354bda3583&units=imperial';
 const ButtonGen = document.getElementById('generate');
 // Create a new date instance dynamically with JS
 //here we get the full date as in mm/dd/yy
